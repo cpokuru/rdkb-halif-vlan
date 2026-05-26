@@ -27,6 +27,7 @@
  * RETURN_OK (or is a no-op for void functions).
  */
 
+#include <stdio.h>
 #include "vlan_hal.h"
 
 /* -------------------------------------------------------------------------
