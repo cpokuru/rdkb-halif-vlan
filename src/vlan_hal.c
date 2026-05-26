@@ -96,6 +96,10 @@ void _get_shell_outputbuffer_res(FILE *fp, char *out, int len)
         if (fgets(out, len, fp) == NULL)
             out[0] = '\0';
     }
+    else if (out && len > 0)
+    {
+        out[0] = '\0';
+    }
 }
 
 /* -------------------------------------------------------------------------
